@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>外部播放列表</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h5>Playlist</h5>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <!--播放器开始-->
+      <script src="../player/jwplayer.js"></script>
+      <div id="ninghao-player">努力加载中 ...</div>
+      <script>
+        jwplayer("ninghao-player").setup({
+          playlist: "../video/playlist.rss",
+          width: "100%",
+          aspectratio: "12:5",
+          listbar: {
+              position: "right",
+              size: 300
+          }
+        })
+      </script>
+    </div>
+  </div>
+</body>
+</html>
