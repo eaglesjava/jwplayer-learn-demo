@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:jwplayer="http://rss.jwpcdn.com">
+    <channel>
+        
+        <item>
+            <title>疯狂原始人预告 1</title>
+            <description>疯狂原始人电影的预告片 1</description>
+            <jwplayer:image>../video/croods-01.jpg</jwplayer:image>
+            <jwplayer:source file="../video/croods-01.mp4" />
+        </item>
+         <item>
+            <title>疯狂原始人预告 2</title>
+            <description>疯狂原始人电影的预告片 2</description>
+            <jwplayer:image>../video/croods-02.jpg</jwplayer:image>
+            <jwplayer:source file="../video/croods-02.mp4" />
+        </item>
+        <item>
+            <title>疯狂原始人预告 3</title>
+            <description>疯狂原始人电影的预告片 3</description>
+            <jwplayer:image>../video/croods-03.jpg</jwplayer:image>
+            <jwplayer:source file="../video/croods-03.mp4" />
+        </item>
+        
+    </channel>
+    
+</rss>
